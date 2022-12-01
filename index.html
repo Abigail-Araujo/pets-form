@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Mi mascota y yo</title>
+</head>
+<body>
+    <img src="https://img.freepik.com/vector-gratis/ilustracion-dibujos-animados-lindo-perro-gato-lindo_138676-3238.jpg?w=740&t=st=1669925195~exp=1669925795~hmac=48e0c744620cc4a770e02f5644ae1d50e8d114ad3030a0dbe4951e1493bcaec5" alt="ilustración de mascotas">
+    <h1>Certificado de mascota</h1>
+    <div class="formulario">
+        <form action="" method="post">
+                <fieldset>
+                    <div> <!--fondo formulario-->
+                        <legend><b>Datos del dueño</b>
+                        </legend>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre">
+                        <br>
+                        <label for="apellido">Apellido</label>
+                        <input type="text" id="apellido" name="apellido" placeholder="Ingresa tu apellido">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <div> <!--fondo formulario-->
+                        <legend><b>Datos de la mascota</b></legend>
+                        <label for="nombremascota">Nombre</label>
+                        <input type="text" id="nombremascota" name="nombremascota" placeholder="Nombre de tu mascota">
+                        <br>
+                        <label for="nacimiento">Fecha de nacimiento</label>
+                        <input type="date" id="nacimiento" name="nacimiento">
+                    </div>
+                </fieldset>
+            <div class="botones">
+                <button type="submit" id="enviar"><b>Enviar</b></button>
+                <button type="reset" id="cancelar"><b>Cancelar</b></button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,72 @@
+body{
+    background-image: url("https://img.freepik.com/vector-gratis/fondo-colorido-modelo-huellas-pata-perro-o-gato_1017-30662.jpg?w=900&t=st=1669925160~exp=1669925760~hmac=8f90f3b4350aa463a9d23788c962fcf85cba94763db5096fd15e71f8a48c824a");
+    background-size: 900px;
+    margin-top: 30px;
+}
+img{
+    display: block;
+    margin: auto;
+    width: 200px;
+    border-radius: 200px;
+    box-shadow: 5px 5px 30px;
+}
+button {
+    border: none;
+    margin: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px black;
+    height: 45px;
+    width: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+fieldset {
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px;
+    width: 250px;
+    margin: 10px;
+    padding: 20px;
+}
+h1 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    text-shadow: 5px 5px 10px;
+}
+div{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+legend{
+    text-align: center;
+    margin-bottom: 8px;
+}
+input[type="text"] {
+    margin: 5px 0px ;
+    width: 250px;
+    height: 25px;
+}
+input[type="date"]{
+    margin: 5px 0px;
+    width: 125px;
+    height: 30px;
+}
+.botones {
+    display: flex;
+    justify-content: center;
+}
+.formulario {
+    display: flex;
+    justify-content: center;
+}
+#enviar{
+    color: darkseagreen;
+}
+#cancelar{
+    color:lightcoral
+}
